@@ -1,4 +1,4 @@
-package Dollar;
+package dollar;
 
 public class Dollar {
 
