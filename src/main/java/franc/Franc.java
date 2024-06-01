@@ -1,7 +1,8 @@
 package franc;
 
-public class Franc {
-    private int amount;
+import money.Money;
+
+public class Franc extends Money {
 
     public Franc(int amount) {
         this.amount = amount;
@@ -11,12 +12,4 @@ public class Franc {
         return new Franc(amount * multiplier);
     }
 
-    public int getAmount() {
-        return amount;
-    }
-
-    public boolean equals(Object object) {
-        Franc franc = (Franc) object;
-        return amount == franc.getAmount();
-    }
 }
